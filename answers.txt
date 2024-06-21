@@ -88,3 +88,6 @@ Making commits
 ..Commit Changes:
 -After staging the changes, enter a commit message in the text box at the top.
 -Click the checkmark icon (✔) or press Ctrl+Enter to commit the changes.
+
+Pushing to github
+-run "git push " on terminal
