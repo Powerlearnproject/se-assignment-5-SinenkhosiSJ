@@ -1,0 +1,90 @@
+1. Installation of VS code 
+prerequisites
+-windows 11 installed
+-administrator access
+
+installation process
+-download vs code from https://code.visualstudio.com/downloads
+- doulbe click on the newly downloaded file 
+-accept the license agreement 
+-select the destination file for the installation 
+-click next untill the installation button is shown 
+- installation is complete 
+
+2.First-time Set up
+- enable auto-save from file tab
+- install language extensions like python, flutter and, dart
+
+3. User Interface Overview
+
+Activity Bar - Provides quick access to different views and functionalities within VS Code. These functions include the file explorer, search, source control, run and debugg and extensions.
+
+Side Bar - Displays different views and tools depending on the icon selected in the Activity Bar. eg if the extensions icon is clicked in the activities bar, extensions will be displayed in the side bar.
+
+Editor Group -  The main area where you open and edit your files.
+
+Status Bar - Provides information about the current state of the editor and the workspace. This includes lines and columns, language and errors and warnings.
+
+4. Command Palatte
+definition -  feature that allows you to access and execute various commands quickly without having to navigate through menus 
+
+accessing the command palatte - "View" - "command palatte" or ctrl+shift+P 
+
+tasks that can be performed - open file, perform git operations and install extensions
+
+5. Extensions in VS Code
+ They allow users to customize the editor to meet their specific needs by adding support for additional languages, debuggers, tools, and services. The extensions icon is found in the activity bar where they can also be installed and managed at. Important extensions for web development include django, javascript.
+
+ 6. Integrated Terminal 
+ openning terminal - ctrl+` or terminal > new terminal
+
+ advantages - allowing you to run commands, scripts, and development tasks without leaving the editor. This reduces context switching and increases productivity.
+ - The integrated terminal can handle multiple root folders in a single workspace, making it easier to manage complex projects with multiple repositories.
+
+ 7. File and folder management 
+
+- Click the Explorer icon in the Activity Bar on the side of the window or press Ctrl+Shift+E.
+..Create a New File:
+- Right-click on a folder in the Explorer and select New File, or click the New File icon (a document with a plus sign).
+-Enter the file name and press Enter.
+..Create a New Folder:
+-Right-click on a folder in the Explorer and select New Folder, or click the New Folder icon (a folder with a plus sign).
+-Enter the folder name and press Enter.
+
+8. Settings and Preferences 
+ ..openning Settings
+- Type "Preferences" on the command palatte
+- File > Preferences > Settings 
+
+.. changing theme
+-In the search bar at the top, type theme.
+-Under Color Theme, you can browse and select from the list of installed themes. The change will apply immediately.
+
+.. changing font size 
+-In the search bar at the top, type font size.
+-Scroll down to Editor: Font Size and adjust the value to your preferred font size. The change will apply immediately
+
+9. Debugging in VS code
+features of the debugger 
+-break points 
+-watch extensions 
+-call stack 
+-variable inspection 
+-call stack
+-set control 
+
+10.  Using Source Control 
+Initializing a repository
+-Open project folder
+-Open the Source Control view by clicking the Source Control icon in the Activity Bar or pressing Ctrl+Shift+G.
+-Click the Initialize Repository button.
+  
+Making commits
+..Make changes to your files.
+-Open the Source Control view in VS Code.
+-You will see the list of changed files under the CHANGES section.
+-Click the + icon next to the files you want to stage, or click the + icon at the top to stage all changes.
+
+..Commit Changes:
+-After staging the changes, enter a commit message in the text box at the top.
+-Click the checkmark icon (✔) or press Ctrl+Enter to commit the changes.
